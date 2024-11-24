@@ -7,7 +7,7 @@ function even(arr) {
     }
     return evenNumbers;
 }
-const originalArray = [2, 7, 4];
+const originalArray = [2, 7, 4,9,10,3];
 const evenArray = even(originalArray);
 console.log("Original array:",originalArray);
 console.log("Array of even numbers:",evenArray);

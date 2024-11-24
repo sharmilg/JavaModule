@@ -1,3 +1,4 @@
+
 'use strict';
 function votingProgram() {
     const numCandidates = parseInt(prompt("Enter the number of candidates:"), 10);
@@ -46,3 +47,19 @@ function votingProgram() {
     }
 }
 votingProgram();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

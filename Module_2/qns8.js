@@ -7,4 +7,5 @@ function concat(arr) {
 }
 const names = ["Johnny", "DeeDee", "Joey", "Marky"];
 const String = concat(names);
+console.log(` Concatenated string :${String}`);
 document.body.innerHTML = `<p>${String}</p>`;

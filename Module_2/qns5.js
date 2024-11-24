@@ -13,7 +13,7 @@ function askNum() {
     }
     if (enteredNumber.has(number)) {
         console.log(`The number ${number} already exists.`);
-        numbers.sort((a, b) => a - b);  // Sort the array in ascending order
+        numbers.sort((a, b) => a - b);
         console.log('Given numbers in ascending order:', numbers);
     } else {
         numbers.push(number);
